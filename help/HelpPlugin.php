@@ -58,6 +58,7 @@ class HelpPlugin extends BasePlugin {
         'title' => 'Help',
         'url' => 'help',
         'type' => 'cpUrl',
+        'permissions' => array('accessPlugin-Help'),
       ),
     );
   }
